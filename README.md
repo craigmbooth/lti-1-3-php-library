@@ -1,6 +1,6 @@
 # LTI 1.3 Tool Library
 
-![Test status](https://github.com/craigmbooth/lti-1-3-php-library/actions/workflows/run_tests.yml/badge.svg?branch=master)
+![Test status](https://github.com/packbackbooks/lti-1-3-php-library/actions/workflows/run_tests.yml/badge.svg?branch=master)
 
 A library used for building IMS-certified LTI 1.3 tool providers in PHP.
 
@@ -475,7 +475,7 @@ This library was forked and rewritten from [IMSGlobal/lti-1-3-php-library](https
 
 ## Contributing
 
-For improvements, suggestions or bug fixes, make a pull request or an issue. Before opening a pull request, add automated tests for your changes and ensure that all tests pass.
+For improvements, suggestions or bug fixes, make a pull request or an issue. Before opening a pull request, add automated tests for your changes, ensure that all tests pass, and any linting errors are fixed.
 
 ### Testing
 
@@ -483,4 +483,13 @@ Automated tests can be run using the command:
 
 ```bash
 composer test
+```
+
+Linting can be run using
+
+```bash
+# Display linting errors
+composer lint
+# Automatically fix linting errors
+composer lint-fix
 ```
